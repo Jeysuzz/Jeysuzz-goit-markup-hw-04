@@ -249,8 +249,13 @@ img {
 }
 /* checked */
 .bg-hero {
-  background-color: var(--background-black);
+  background: var(--grey, rgba(46, 47, 66, 0.7));
+  background-image: url(/images/hero.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 /* Checked */
 .hero-title {
   color: var(--primary-white-color);
