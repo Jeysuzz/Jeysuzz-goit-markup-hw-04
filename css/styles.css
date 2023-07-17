@@ -202,7 +202,7 @@ img {
 .filters {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 72px;
 }
 /* checked */
 .filters .space + .space {
@@ -246,9 +246,9 @@ img {
 }
 /* Checked */
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 /* checked */
 .bg-hero {
@@ -387,4 +387,12 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  height: auto;
+  width: auto;
 }
