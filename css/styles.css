@@ -389,10 +389,15 @@ img {
   line-height: 1.87;
 }
 
-.icons {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  height: auto;
-  width: auto;
+.icon-item {
+  background-color: #2e2f42;
+  text-align: center;
+  justify-content: center;
+}
+
+.icon {
+  background-color: var(--iris);
+  color: white;
+  border-radius: 50%;
+  height: "20px";
 }
