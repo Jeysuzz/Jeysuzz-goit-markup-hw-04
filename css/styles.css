@@ -170,6 +170,8 @@ img {
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
 }
 /* checked */
 .button {
@@ -229,8 +231,7 @@ img {
 
 /* Checked */
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0px;
 }
 
 /* added padding-top */
@@ -249,15 +250,15 @@ img {
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
-}
-/* checked */
-.bg-hero {
   background: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
   background-image: url(/images/hero.jpg);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* REMOVED content moved to .hero*/
+/* .bg-hero {} */
 
 /* Checked */
 .hero-title {
@@ -305,7 +306,7 @@ img {
 }
 /* checked */
 .bg-team {
-  background-color: var(--background-grey);
+  background-color: var(--cloud);
 }
 /* Checked */
 .what-we-do {
@@ -331,8 +332,7 @@ img {
 /* Checked */
 
 .team .item {
-  padding-bottom: 30px;
-  background-color: var(--primary-white-color);
+  background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
@@ -344,14 +344,14 @@ img {
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
+  padding-bottom: 32px;
 }
 /* Checked */
 .team .name {
-  color: var(--primary-black-color);
+  color: var(--navy-blue);
   font-weight: 500;
-  margin-top: 30px;
+  margin-top: 32px;
   font-size: 20px;
-  margin-bottom: 30px;
 }
 .substrate {
   background-color: var(--primary-white-color);
@@ -367,7 +367,8 @@ img {
   margin-left: -30px;
   margin-top: -30px;
 }
-/* Checked */
+/* Removed from pfolio and changed
+to class="item" */
 .project-card {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
@@ -376,7 +377,7 @@ img {
 /* checked */
 .project .name {
   margin-bottom: 4px;
-  color: var(--primary-black-color);
+  color: var(--navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 2;
@@ -384,29 +385,107 @@ img {
 }
 /* checked */
 .project .type {
-  color: var(--primary-text-color);
+  color: var(--navy-blue);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
 
-.icon-item {
-  background-color: #2e2f42;
-  text-align: center;
-  justify-content: center;
-}
-
 .icon {
-  background-color: var(--iris);
-  color: white;
-  border-radius: 50%;
-  height: "20px";
-}
-
-.benefits-icon {
-  width: 264px;
   height: 112px;
+  width: 264px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
   border-radius: 4px;
   background: var(--cloud, #f4f4fd);
+}
+
+.antenna {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.social-team {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 31px;
+  gap: 24px;
+}
+.icon-item {
+  border-radius: 50%;
+  background-color: var(--iris);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.socmed {
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+}
+
+.partners {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.partners .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate, #8e8f99);
+  color: var(--light-slate);
+  width: 168px;
+  height: 88px;
+}
+
+.partners-icon {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
+}
+
+.partners .link:hover,
+.partners .link:focus {
+  border-color: var(--ocean);
+  color: var(--ocean);
+  cursor: pointer;
+}
+
+.footer-block {
+  color: var(--white, #fff);
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.socmed-footer {
+  width: 20px;
+  height: 20px;
+}
+
+.social-footer {
+  display: flex;
+}
+.social-footer {
+  display: flex;
+  position: relative;
 }
