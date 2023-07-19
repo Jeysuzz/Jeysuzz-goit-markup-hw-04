@@ -278,6 +278,7 @@ img {
   font-size: 20px;
   line-height: 1.14;
   letter-spacing: 0.4px;
+  padding-top: 8px;
 }
 /* Checked */
 .benefits .description {
@@ -400,4 +401,12 @@ img {
   color: white;
   border-radius: 50%;
   height: "20px";
+}
+
+.benefits-icon {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
 }
