@@ -97,8 +97,7 @@ img {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -12px;
-  margin-left: -86px;
+
   align-items: baseline;
 }
 /* Checked July 20*/
@@ -149,7 +148,7 @@ img {
 .nav-menu .page,
 .contacts-menu .contact {
   color: var(--navy-blue);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -260,6 +259,8 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
   background-image: linear-gradiant(
       to right,
@@ -459,17 +460,17 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--white);
-  color: #afb1b8;
+  background-color: var(--ocean);
+  color: var(--cloud);
   border-radius: 50%;
 }
 
 /* Checked July 20*/
-.social-team .link:hover,
+/* .social-team .link:hover,
 .social-team .link:focus {
   background-color: var(--ocean);
   color: var(--white);
-}
+} */
 
 /* Checked July 20*/
 .social-team .icon {
@@ -532,7 +533,7 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--ocean);
   border-radius: 50%;
   color: var(--white);
 }
@@ -549,7 +550,7 @@ img {
 }
 
 /* Checked July 20*/
-.social .footer-address,
+.footer-address,
 .footer-block {
   margin-top: 12px;
   margin-left: 18px;
@@ -558,8 +559,8 @@ img {
 /* Checked July 20*/
 .footer-heading {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   color: var(--white);
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.33;
 }
