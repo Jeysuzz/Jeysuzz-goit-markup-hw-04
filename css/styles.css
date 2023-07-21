@@ -123,9 +123,9 @@ img {
   margin-right: 50px;
 }
 /* Checked July 20*/
-.nav-menu .item {
+/* .nav-menu .item {
   font-size: 16px;
-}
+} */
 /* Checked July 20*/
 .footer-description {
   color: var(--cloud);
@@ -262,12 +262,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
-  background-image: linear-gradiant(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/hero.jpg);
+  background-image: url(../images/hero.jpg);
+  background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -499,7 +495,7 @@ img {
   justify-content: center;
   border-radius: 4px;
   border: 1px solid var(--lightslate, #8e8f99);
-  color: var(--light-slate);
+
   width: 168px;
   height: 88px;
 }
@@ -553,7 +549,7 @@ img {
 .footer-address,
 .footer-block {
   margin-top: 12px;
-  margin-left: 18px;
+  margin-left: 120px;
 }
 
 /* Checked July 20*/
