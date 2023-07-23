@@ -512,7 +512,7 @@ img {
 
 /* Checked July 20*/
 .social-footer .icon-item + .icon-item {
-  margin-left: 10px;
+  margin-left: 16px;
 }
 
 /* Checked July 20*/
@@ -538,11 +538,14 @@ img {
   fill: currentColor;
 }
 
+.footer-block {
+  margin-left: 120px;
+}
+
 /* Checked July 20*/
 .footer-address,
 .footer-block {
   margin-top: 12px;
-  margin-left: 120px;
 }
 
 /* Checked July 20*/
