@@ -22,7 +22,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.04em;
 }
 /* Checked July 20*/
 h1,
@@ -36,7 +36,7 @@ p {
 }
 /* Checked July 20*/
 html {
-  box-sizing: border;
+  box-sizing: border-box;
 }
 /* Checked July 20*/
 *,
@@ -97,13 +97,11 @@ img {
 .footer {
   display: flex;
   flex-wrap: wrap;
-
-  align-items: baseline;
 }
 /* Checked July 20*/
 .footer .logo {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 17.5px;
 }
 
 /* .logo.footer {
@@ -126,14 +124,13 @@ img {
 /* .nav-menu .item {
   font-size: 16px;
 } */
-/* Checked July 20*/
+/* Checked */
 .footer-description {
   color: var(--cloud);
   font-size: 16px;
   font-family: "Roboto";
   line-height: 24px;
   letter-spacing: 0.32px;
-  padding-top: 17.5px;
   font-weight: 400;
 }
 /* Checked July 20*/
@@ -148,7 +145,7 @@ img {
 .nav-menu .page,
 .contacts-menu .contact {
   color: var(--navy-blue);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -160,6 +157,7 @@ img {
 /* Checked July 20*/
 .contacts-menu .contact {
   color: var(--slate);
+  font-weight: 400;
 }
 /* Checked July 20*/
 .page-header {
@@ -237,7 +235,7 @@ img {
 
 /* Checked July 20*/
 .section {
-  padding: 120px 0px;
+  padding: 94px 0px;
 }
 /* Checked July 20*/
 .section.no-top-padding {
@@ -401,7 +399,7 @@ img {
 
 /* Checked July 20*/
 .projects .item {
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
 }
@@ -432,41 +430,35 @@ img {
 }
 
 /* Checked July 20*/
-/* .antenna {
-  width: 64px;
-  height: 64px;
-  flex-shrink: 0;
-} */
-
-/* Checked July 20*/
 .social-team {
   display: flex;
   justify-content: center;
+  gap: 24px;
 }
 
-/* Checked July 20*/
-.social-team .icon-item + .icon-item {
+/*Removed -- Replaced with gap: 24px; in .social-team*/
+/* .social-team .icon-item + .icon-item {
   margin-left: 10px;
-}
+} */
 
 /* Checked July 20*/
 .social-team .link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
-  background-color: var(--ocean);
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris);
   color: var(--cloud);
   border-radius: 50%;
 }
 
 /* Checked July 20*/
-/* .social-team .link:hover,
+.social-team .link:hover,
 .social-team .link:focus {
   background-color: var(--ocean);
   color: var(--white);
-} */
+}
 
 /* Checked July 20*/
 .social-team .icon {
@@ -495,14 +487,9 @@ img {
   justify-content: center;
   border-radius: 4px;
   border: 1px solid var(--lightslate, #8e8f99);
-
+  fill: currentColor;
   width: 168px;
   height: 88px;
-}
-
-/* Checked July 20*/
-.partners-icon {
-  fill: currentColor;
 }
 
 /* Checked July 20*/
