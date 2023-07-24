@@ -259,7 +259,7 @@ img {
 
   margin-left: auto;
   margin-right: auto;
-  background-image: url(/images/dark-bg.jpg), url(/images/hero.jpg);
+  background-image: url(../images/dark-bg.jpg), url(../images/hero.jpg);
   color: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
   background-blend-mode: multiply;
   background-position: center;
