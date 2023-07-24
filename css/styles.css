@@ -189,7 +189,7 @@ img {
 }
 /* Checked July 20*/
 .button.primary {
-  background-color: var(--ocean);
+  background-color: var(--iris);
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
@@ -259,9 +259,9 @@ img {
 
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
-  background-image: url(../images/hero.jpg);
-  background-blend-mode: overlay;
+  background-image: url(/images/dark-bg.jpg), url(/images/hero.jpg);
+  color: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -522,7 +522,7 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--ocean);
+  background-color: var(--iris);
   border-radius: 50%;
   color: var(--white);
 }
@@ -539,7 +539,7 @@ img {
 }
 
 .footer-block {
-  margin-left: 120px;
+  margin-left: 140px;
 }
 
 /* Checked July 20*/
