@@ -256,11 +256,11 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/dark-bg.jpg), url(../images/hero.jpg);
-  color: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+
+  background: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  background-image: url(../images/hero.jpg);
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
