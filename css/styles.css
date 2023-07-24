@@ -249,7 +249,7 @@ img {
   font-weight: 700;
   line-height: 1.17;
   color: var(--navy-blue);
-  margin-bottom: 50px;
+  margin-bottom: 72px;
 }
 /* Checked July 20*/
 .hero {
@@ -341,13 +341,13 @@ img {
 .team {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
 }
 
+.bg-team {
+  background: var(--cloud, #f4f4fd);
+}
 /* Checked July 20*/
 .team .item {
-  padding-bottom: 30px;
   background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.12);
@@ -355,17 +355,20 @@ img {
 }
 
 /* Checked July 20*/
-.team .image {
+/* .team .image {
   margin-bottom: 30px;
-}
+} */
 
 /* Checked July 20*/
 .team .name,
 .team .position {
-  font-size: 16px;
-  line-height: 1.19px;
   text-align: center;
-  padding-bottom: 32px;
+}
+
+.team .position {
+  margin-top: 8px;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 
 /* Checked July 20*/
@@ -377,9 +380,6 @@ img {
 }
 
 /* Checked July 20*/
-.team .position {
-  margin-bottom: 16px;
-}
 
 /* Checked July 20*/
 .substrate {
@@ -401,7 +401,6 @@ img {
 .projects .item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
-  margin-bottom: 30px;
 }
 
 /* Checked July 20*/
@@ -434,6 +433,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-top: 0px;
 }
 
 /*Removed -- Replaced with gap: 24px; in .social-team*/
@@ -451,6 +451,7 @@ img {
   background-color: var(--iris);
   color: var(--cloud);
   border-radius: 50%;
+  margin-bottom: 32px;
 }
 
 /* Checked July 20*/
